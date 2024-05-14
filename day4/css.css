@@ -42,3 +42,39 @@
     top: 50%;
     transform: translateY(-50%);
 }
+
+.header {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: absolute;
+    border: 3px solid red;
+}
+
+img {
+    height: 100%;
+    width: 20%;
+}
+
+.h1-title {
+    float: right;
+    height: 100%;
+    padding-right: 40%;
+    /* width: 80%; */
+
+}
+
+@media screen and (max-width: 1600px) {
+    .h1-text {
+      width: 200%; /* The width is 100%, when the viewport is 800px or smaller */
+        color: red;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .h1-text {
+      width: 80%; /* The width is 100%, when the viewport is 800px or smaller */
+      color: blue;
+    }
+}

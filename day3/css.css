@@ -1,0 +1,175 @@
+body {
+    /* background-image: url(kent.jpg); */
+    background-repeat: no-repeat;
+    /* background-position: bottom right; */
+    /* background-attachment: scroll; */
+}
+
+.text-align{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 80%; /* or any specific height you want */
+}
+
+.container{
+    /* Bao boc ben ngoai */
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    /* align-items: Center; */
+    /*  */
+    box-shadow: 20px 20px 20px blue;
+}
+
+.item {
+    margin: 0;
+    padding: 0;
+    height: 100px;
+    width: 80px;
+    border: 2px solid red;
+}
+
+.position{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    height: 150px;
+    width: 180px;
+    border: 2px solid green;
+}
+
+.detail {
+    margin: 0;
+    padding: 0;
+    height: 150px;
+    width: 180px;
+    border: 2px solid green;
+    border-radius: 5px;
+    background-color: #B2c1be
+}
+
+.boxxx2 {
+    height: 400px;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    border: 3px solid red;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-right: 0px;
+    margin-left: 30px;
+    margin-top: 0px;
+}
+
+.boxxx54{
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    height: 200px;
+    border: 3px solid red;
+    position: absolute;
+
+    background-color: red;
+}
+
+.boxxx3 {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    height: 200px;
+    border: 3px solid blue;
+    position: absolute;
+    z-index: 9999999;
+    background-color: blue;
+}
+
+
+.boxxx {
+    margin: 0;
+    padding: 0;
+
+    border: 3px solid red;
+}
+
+
+.boxx{
+    /* background-image: url(kent.jpg); */
+   /* Cach1 */
+    /* margin: 0; => Set ca 4 gia tri, top
+    left, right, bottom ve 0
+    padding: 0; Set ca 4 gia tri, top
+    left, right, bottom ve 0 */
+
+       /* Cach2 */
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+
+       /* Cach3 */
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    /* Top -> right -> Bottom -> Left */
+
+     /* Cach4 */
+     padding: 0px 0px 0px;
+    /* Top -> Left, right -> bottom */
+
+    /* Cach5 */
+    padding: 0px 0px;
+    /* Top, Bottom -> Left, right */
+
+    height: 200px;
+    width: 300px;
+    position: relative;
+    top: 100px;
+
+
+}
+
+html{
+    font-size: 15px;
+}
+
+.box2{
+    margin: 0;
+    padding: 0;
+    height: 50%;
+    width: 50%;
+    /* border: 2px solid green; */
+    background-color: green;
+}
+
+.box1{
+    /* display: inline; */
+    margin: 0;
+    padding: 0;
+    height: 1200px;
+    width: 300px;
+    /* border: 2px solid yellow; */
+    font-size: 20px;
+}
+
+.box3{
+    margin: 0;
+    padding: 0;
+    height: 5em;
+    width: 50%;
+    /* border: 2px solid green; */
+    background-color: green;
+}
+.box4{
+    margin: 0;
+    padding: 0;
+    height: 5rem;
+    width: 80%;
+    /* border: 2px solid green; */
+    background-color: blue;
+}

@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.header {
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 20px;
+}
+.post-box {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.post-input {
+    width: 500px;
+    padding: 10px;
+}
+.posts {
+    padding: 20px;
+}
+.post {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+.post h2 {
+    margin: 0;
+}
+.post p {
+    margin: 10px 0;
+}

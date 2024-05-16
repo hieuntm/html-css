@@ -1,0 +1,33 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: Arial, sans-serif;
+            animation: seasonChange 20s infinite;
+        }
+
+        h1 {
+            font-size: 3em;
+        }
+
+        @keyframes seasonChange {
+            0% { background: #30a9de; color: white; } /* Winter */
+            25% { background: #efcb68; color: black; } /* Spring */
+            50% { background: #e53a40; color: white; } /* Summer */
+            75% { background: #090707; color: #15b097; } /* Autumn */
+            100% { background: #30a9de; color: white; } /* Winter */
+        }
+    </style>
+</head>
+<body>
+    <h1>Seasons Change</h1>
+</body>
+</html>

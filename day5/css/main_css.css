@@ -1,0 +1,145 @@
+
+.input-tag:focus {
+    background-color: yellow;
+}
+
+.a-tag {
+    text-decoration: none;
+    font-size: xx-large;
+}
+
+
+.a-tag:hover {
+    color: red;
+}
+
+.a-tag:visited {
+    color: pink;
+}
+
+#id {
+
+}
+
+li:first-child {
+    /* color: blue; */
+}
+
+li:last-child {
+    /* color: green; */
+}
+
+::marker {
+    color: royalblue;
+}
+
+p::after {
+    content: " - The End";
+    color: red;
+}
+
+p::before {
+    content: " - The Start";
+    color: blue;
+}
+
+::selection {
+    background-color: yellow;
+    color: pink;
+}
+
+.test-transition {
+    color: white;
+    margin-left: 100px;
+    width: 100px;
+    height: 50px;
+    /* border: 3px solid red; */
+    background-color: red;
+
+    /* transition-property: width, background-color;
+    transition-duration: 2s;
+    transition-timing-function: ease-in; */
+
+    
+    /* degree */
+
+    transition: all 2s ease;
+}
+
+.test-transition:hover {
+    margin-left: 100px;
+    height: 100px;
+    width: 500px;
+    background-color: blue;
+    border: 3px solid yellow;
+}
+
+
+.animation {
+    font-size: 80px;
+    width: 400px;
+    height: 200px;
+    background-color: pink;
+
+    animation: myAnimation 10s ease 0s infinite alternate;
+}
+
+@keyframes myAnimation {
+    /* from (0%) -> to (100%)*/ 
+    0% {
+        /* 0% */
+        color: red;
+        background-color: white;
+        margin: 0;
+        transform: skewY(30deg);
+    }
+
+    25% {
+        /* 0% */
+        color: purple;
+        background-color: yellow;
+        margin-left: 30px;
+        transform: skewX(30deg);
+    }
+
+    50% {
+        /* 0% */
+        color: black;
+        background-color: white;
+        margin-top: 30px;
+        transform: rotate(60deg);
+    }
+
+    75% {
+        /* 0% */
+        color: brown;
+        background-color: pink;
+        margin-left: 30px;
+    }
+
+    100% {
+        /* 100% */
+        color: white;
+        background-color: black;
+        margin-top: 30px;
+    }
+}
+
+.responsive {
+    font-size: 100px;
+    color: red;
+}
+
+@media screen and (min-width: 1025px) {
+    .responsive {
+        font-size: 500px;
+        color: blue;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .responsive {
+        font-size: 70px;
+        color: red;
+    }
+}

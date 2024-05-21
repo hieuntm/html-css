@@ -1,0 +1,13 @@
+.bg-color{
+    size: 100%;
+    background-color: yellow;
+}
+
+.bg-color-2{
+    size: 100%;
+    background-color: pink;
+}
+.bg-color-3{
+    font-size: 50px;
+    background-color: pink;
+}
